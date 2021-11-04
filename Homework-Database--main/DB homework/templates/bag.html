@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login page</title>
+</head>
+<body>
+<h1>장바구니</h1><br>
+<h3>다음의 정보를 주문하신게 맞습니까?</h3><br>
+<form action = '/delivery' method = 'GET'>
+    <label for='product1'>디퓨저</label><br>
+    <h4>price : 5000</h4><br>
+    {{a}}<br>
+
+    <label for='product2'>라이언인형</label><br>
+    <h4>price : 4000</h4><br>
+    {{b}}<br>
+
+    <label for='product3'>무드등</label><br>
+    <h4>price : 6000</h4><br>
+    {{c}}<br>
+
+    <label for='product1'>수면양말</label><br>
+    <h4>price : 3000</h4><br>
+    {{d}}<br>
+
+    <input type='submit' name='send' value='주문 완료'>
+</body>
+</html>
